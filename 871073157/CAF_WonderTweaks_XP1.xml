@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--##### Created by Chris 'ADLER' Fulford.  Please do not replicate graphics or art work without express permission.  I may be contacted via Steam http://steamcommunity.com/profiles/76561197970522546  or  https://forums.civfanatics.com/members/reichadler.295994/  Please feel free to utilise any aspect of the code contained herein for your own mod.  11 April 2019 #####-->
+<GameInfo>
+	<Building_ValidFeatures>
+	
+	
+	</Building_ValidFeatures>
+	<Building_RequiredFeatures>
+	
+	
+	</Building_RequiredFeatures>
+	<Building_ValidTerrains>
+	
+		<Row BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+	
+	</Building_ValidTerrains>
+	<Building_GreatWorks>
+	
+		<Row BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+		<Row BuildingType="BUILDING_CASA_DE_CONTRATACION" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="5"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="5"/>
+		<Row BuildingType="BUILDING_KOTOKU_IN" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="5"/>
+		<Row BuildingType="BUILDING_ST_BASILS_CATHEDRAL" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="2"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="5"/>
+		<Row BuildingType="BUILDING_TEMPLE_ARTEMIS" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="5"/>
+	</Building_GreatWorks>
+</GameInfo>

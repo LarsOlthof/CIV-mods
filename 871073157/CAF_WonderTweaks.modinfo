@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--##### Created by Chris 'ADLER' Fulford.  Please do not replicate graphics or art work without express permission.  I may be contacted via Steam http://steamcommunity.com/profiles/76561197970522546  or  https://forums.civfanatics.com/members/reichadler.295994/  Please feel free to utilise any aspect of the code contained herein for your own mod.  11 April 2019 #####-->
+<Mod id="a3c54512-2c5e-4e8a-bd5e-5914f7861fd5" version="201">
+	<Properties>
+		<Name>[COLOR_GREEN]Wonder Tweaks[ENDCOLOR]</Name>
+		<Description>This mod adds more acceptable terrain for wonders to be built on, plus adds slots to many wonders for relics, art, statues etc.[NEWLINE]It simply allows you to put wonders where you want them, plus have space for all those great works.[NEWLINE]It should be compatible with most other mods.[NEWLINE][NEWLINE]It does not change yields, features or anything else.[NEWLINE][NEWLINE]Supports DLCs, plus expansion packs - Rise and Fall, Gathering Storm.</Description>
+		<Teaser>Tweaks wonders build locations, giving more, plus increases slots for most wonders, relics, art etc.</Teaser>
+	<Authors>Chris 'ADLER' Fulford</Authors>
+    <SpecialThanks>Jael 'White Rabbit'</SpecialThanks>
+    <Homepage>http://steamcommunity.com/profiles/76561197970522546/myworkshopfiles/?appid=289070</Homepage>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+	<CompatibleVersions>1.2,2.0</CompatibleVersions>
+	</Properties>
+	
+	<ActionCriteria>
+		<Criteria id="Expansion1">
+			<RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+			<GameCoreInUse>Expansion1</GameCoreInUse>
+		</Criteria>
+		<Criteria id="Expansion2">
+			<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+			<GameCoreInUse>Expansion2</GameCoreInUse>
+		</Criteria>
+		<Criteria id="Expansion1AndBeyond" any="1" >
+			<GameCoreInUse>Expansion1</GameCoreInUse>
+			<RuleSetInUse>RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+			<LeaderPlayable>Players:Expansion1_Players::LEADER_CHANDRAGUPTA,Players:Expansion1_Players::LEADER_GENGHIS_KHAN,Players:Expansion1_Players::LEADER_LAUTARO,Players:Expansion1_Players::LEADER_POUNDMAKER,Players:Expansion1_Players::LEADER_ROBERT_THE_BRUCE,Players:Expansion1_Players::LEADER_SEONDEOK,Players:Expansion1_Players::LEADER_SHAKA,Players:Expansion1_Players::LEADER_TAMAR,Players:Expansion1_Players::LEADER_WILHELMINA</LeaderPlayable>
+			<LeaderPlayable>Players:Expansion2_Players::LEADER_CHANDRAGUPTA,Players:Expansion2_Players::LEADER_GENGHIS_KHAN,Players:Expansion2_Players::LEADER_LAUTARO,Players:Expansion2_Players::LEADER_POUNDMAKER,Players:Expansion2_Players::LEADER_ROBERT_THE_BRUCE,Players:Expansion2_Players::LEADER_SEONDEOK,Players:Expansion2_Players::LEADER_SHAKA,Players:Expansion2_Players::LEADER_TAMAR,Players:Expansion2_Players::LEADER_WILHELMINA</LeaderPlayable>
+		</Criteria>
+		<Criteria id="Expansion2AndBeyond" >
+			<GameCoreInUse>Expansion2</GameCoreInUse>
+			<LeaderPlayable>Players:Expansion2_Players::LEADER_DIDO,Players:Expansion2_Players::LEADER_ELEANOR_ENGLAND,Players:Expansion2_Players::LEADER_ELEANOR_FRANCE,Players:Expansion2_Players::LEADER_KRISTINA,Players:Expansion2_Players::LEADER_KUPE,Players:Expansion2_Players::LEADER_LAURIER,Players:Expansion2_Players::LEADER_MANSA_MUSA,Players:Expansion2_Players::LEADER_MATTHIAS_CORVINUS,Players:Expansion2_Players::LEADER_PACHACUTI,Players:Expansion2_Players::LEADER_SULEIMAN</LeaderPlayable>
+		</Criteria>
+		<Criteria id="Expansion1_Expansion2" >
+			<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+			<LeaderPlayable>Players:Expansion2_Players::LEADER_CHANDRAGUPTA,Players:Expansion2_Players::LEADER_GENGHIS_KHAN,Players:Expansion2_Players::LEADER_LAUTARO,Players:Expansion2_Players::LEADER_POUNDMAKER,Players:Expansion2_Players::LEADER_ROBERT_THE_BRUCE,Players:Expansion2_Players::LEADER_SEONDEOK,Players:Expansion2_Players::LEADER_SHAKA,Players:Expansion2_Players::LEADER_TAMAR,Players:Expansion2_Players::LEADER_WILHELMINA</LeaderPlayable>
+		</Criteria>
+	</ActionCriteria>
+	
+	
+	<InGameActions>
+		<UpdateDatabase id="CAF_WonderTweaks">
+			<Items>
+				<File>CAF_WonderTweaks.xml</File>
+				<File>CAF_WonderTweaks_DLC.sql</File>
+			</Items>
+		</UpdateDatabase>
+		
+		<UpdateDatabase id="CAF_WonderTweaks_XP1" criteria="Expansion1">
+			<File>CAF_WonderTweaks_XP1.xml</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="CAF_WonderTweaks_XP1_2" criteria="Expansion1_Expansion2">
+			<File>CAF_WonderTweaks_XP1.xml</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="CAF_WonderTweaks_XP2" criteria="Expansion2">
+			<File>CAF_WonderTweaks_XP2.xml</File>
+		</UpdateDatabase>
+	</InGameActions>
+	<Files>
+		<File>CAF_WonderTweaks.xml</File>
+		<File>CAF_WonderTweaks_XP1.xml</File>
+		<File>CAF_WonderTweaks_XP2.xml</File>
+		<File>CAF_WonderTweaks_DLC.sql</File>
+	</Files>
+</Mod>

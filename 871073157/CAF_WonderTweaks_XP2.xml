@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--##### Created by Chris 'ADLER' Fulford.  Please do not replicate graphics or art work without express permission.  I may be contacted via Steam http://steamcommunity.com/profiles/76561197970522546  or  https://forums.civfanatics.com/members/reichadler.295994/  Please feel free to utilise any aspect of the code contained herein for your own mod.  11 April 2019 #####-->
+
+<GameInfo>
+	<Building_ValidFeatures>
+	
+	
+	</Building_ValidFeatures>
+	<Building_RequiredFeatures>
+	
+	
+	</Building_RequiredFeatures>
+	<Building_ValidTerrains>
+	
+	
+	</Building_ValidTerrains>
+	<Building_GreatWorks>
+	
+		<Row BuildingType="BUILDING_GREAT_BATH" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="5"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="5"/>
+		<Row BuildingType="BUILDING_MEENAKSHI_TEMPLE" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="5"/>
+		<Row BuildingType="BUILDING_ORSZAGHAZ" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="5"/>
+		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="3"/>
+	
+	</Building_GreatWorks>
+</GameInfo>
