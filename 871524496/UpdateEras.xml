@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- UpdateEras -->
+<!-- Author: Toonboy01 -->
+<!-- DateCreated: 2/24/2017 7:23:07 PM -->
+<GameData>
+	<MajorStartingUnits>
+		<Update>
+			<Where Era="ERA_ANCIENT" Unit="UNIT_WARRIOR" AiOnly="false" />
+			<Set Unit="UNIT_SCOUT" />
+		</Update>
+	</MajorStartingUnits>
+</GameData>

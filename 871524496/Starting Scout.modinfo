@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6c7cb17d-f4ea-4864-b5b9-31d3377a6349" version="1">
+  <Properties>
+    <Name>Starting Scout</Name>
+    <Description>For those that prefer early exploration. This mod removes the Warrior normally given at the start of an Ancient Era playthrough and replaces it with a Scout to start with. An extremely simple mod, shouldn't conflict with other mods unless they too edit this one starting unit.</Description>
+    <Teaser>Replaces staring Warrior with a Scout</Teaser>
+    <Authors>Toonboy01</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File priority="1">UpdateEras.xml</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>UpdateEras.xml</File>
+  </Files>
+</Mod>
